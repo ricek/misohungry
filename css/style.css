@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:700,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	background-color: #fff;
+	color: #666;
+	font-family: 'Open Sans', arial, sans-serif;
+	width: 960px;
+	margin: 0px auto 0px auto;}
+
+h1 {
+	font-size: 5.5em;
+	margin-top: -45px;
+	color: #000;
+	line-height: 1em;
+	letter-spacing: -.06em;
+	text-align: center;}
+
+h3 {
+	font-size: 3.5em;
+	margin: 0px;
+	color: #000;
+	line-height: 1em;
+	letter-spacing: -.06em;
+	text-align: right;}
+
+p {
+	font-size: 1.5em;
+	text-align: left;
+}
+
+header {
+	display: block;
+	border-bottom: 10px solid #000;
+	margin-bottom: 30px;}
+
+.home {
+	padding-top: 15%;}
+
+nav { padding-top: 30px; text-align: center;}
+nav img { width: 200px; height: 200px;}
+
+a {text-decoration: none; color: #000;}
+a.current { color: #d71a00;}
+
+#category {
+	width: 260px;
+	float: left;
+	text-align: center;
+}
+
+#category a {
+	font-family: oswald, arial, sans-serif;
+	font-size: 120%;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 4.5em;
+	display: block; 
+	height: 120px; width: 100%;
+	cursor: pointer;}
+
+#category img {
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;}
+
+#category a:hover, #steps a:hover {color: #1fb684;}
+
+.recipe, #side {
+	width: 700px;
+	float: left;
+	text-align: left;
+}
+#steps { width: 250px; float: left;}
+#details { width: 390px; float: left;}
+
+#steps a {
+	font-family: oswald, arial, sans-serif;
+	font-size: 120%;}
+#steps ul {
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	padding: 0px 20px 0px 20px;
+	margin: 0px 0px 40px 0px;}
+#steps li {
+	list-style-type: none; 
+	padding: 20px 0px 20px 0px; 
+	background-color: #fff; 
+	border-top: 1px solid #d6d6d6;
+	text-align: left;
+	cursor: pointer;}
+#steps li:first-child {
+	border-top: none;
+	padding-top: 1.8em;}
+#details {
+	text-align: left;
+	font-size: 1.3em;
+	padding: 0px 20px 0px 20px;}

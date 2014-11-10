@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drink | Miso-Hungry</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="index.html"><img src="img/home.png" alt="Home" class="playIcon"></a>
+			<a href="food.html"><img src="img/food.png" alt="Food" class="playIcon"></a>
+			<a href="drink.html" class="current"><img src="img/drink.png" alt="Drink" class="playIcon"></a>
+			<a href="dessert.html"><img src="img/dessert.png" alt="Dessert" class="playIcon"></a>
+		</nav>
+	</header>
+	<section id="content">
+		<div id="container">
+			<div id="category">
+				<a id="overview" class="current"><img src="img/overview.png" alt="Overview">Overview</a>
+				<a id="recipe"><img src="img/recipe.png" alt="Recipe">Recipe</a>
+				<a id="reviews"><img src="img/reviews.png" alt="Reviews">Reviews</a>
+			</div>
+			<div id="side">
+				
+			</div>
+			<div class="recipe">
+				<div id="steps"></div>
+				<div id="details"></div>
+			</div>
+		</div>
+	</section>
+	<script src="js/jquery.min.js"></script>
+	<script src="data/FDD.js"></script>
+	<script src="js/functions.js"></script>
+	<script type="text/javascript">
+		// Initialize food page with overview
+		loadFDD(FDD.drinks);
+	</script>
+</body>
+</html>
