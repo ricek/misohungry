@@ -31,8 +31,68 @@ var FDD = {
             "Grill wings, uncovered, over indirect medium heat for 12-15 minutes or until juices run clear, turning once and basting occasionally with remaining sauce.",
             "Total cooking time will vary depending on how many wings you can fit on your grill at one time."
         ]
-    }
-    
+    },
+    {
+    	"name":"Easy Tuna Casserole",
+    	"overview":"3 cups cooked macaroni<br>1 (6 ounce) can tuna, drained<br>1 (10.75 ounce) can condensed cream of chicken soup<br>1 cup shredded Cheddar cheese<br>1 1/2 cups French fried onions",
+    	"steps":[
+    		"Preheat oven to 350 degrees F (175 degrees C).",
+    		"In a 9x13-inch baking dish, combine the macaroni, tuna, and soup. Mix well, and then top with cheese.",
+    		"Bake at 350 degrees F (175 degrees C) for about 25 minutes, or until bubbly. Sprinkle with fried onions, and bake for another 5 minutes. Serve hot."
+    	]
+    },
+    {
+    	"name":"Elbows and Ground Beef",
+    	"overview":"1 1/2 pounds lean ground beef<br>1 green bell pepper, chopped<br>1 onion, chopped<br>2 (29 ounce) cans tomato sauce<br>1 (16 ounce) package macaroni",
+    	"steps":[
+    		"Cook pasta according to package directions. Drain.",
+    		"In a Dutch oven, brown ground beef over medium heat. Add chopped onion, and cook until onion is soft. Add green pepper and tomato sauce; cook until pepper is soft.",
+    		"Serve sauce over pasta."	
+    	]
+    },
+    {
+    	"name":"Salisbury Steak",
+    	"overview":"1 (10.5 ounce) can condensed French onion soup<br>1 1/2 pounds ground beef<br>1/2 cup dry bread crumbs<br>1 egg<br>1/4 teaspoon salt<br>1/8 teaspoon ground black pepper<br>1 tablespoon all-purpose flour<br>1/4 cup ketchup<br>1/4 cup water<br>1 tablespoon Worcestershire sauce<br>1/2 teaspoon mustard powder",
+    	"steps":[
+			"In a large bowl, mix together 1/3 cup condensed French onion soup with ground beef, bread crumbs, egg, salt and black pepper. Shape into 6 oval patties.",
+			"In a large skillet over medium-high heat, brown both sides of patties. Pour off excess fat.",
+			"In a small bowl, blend flour and remaining soup until smooth. Mix in ketchup, water, Worcestershire sauce and mustard powder. Pour over meat in skillet. Cover, and cook for 20 minutes, stirring occasionally."
+		]
+    },
+    {
+    	"name":"Indian Chicken Curry",
+    	"overview":"3 tablespoons olive oil<br>1 small onion, chopped<br>2 cloves garlic, minced<br>3 tablespoons curry powder<br>1 teaspoon ground cinnamon<br>1 teaspoon paprika<br>1 bay leaf<br>1/2 teaspoon grated fresh ginger root<br>1/2 teaspoon white sugar<br>salt to taste<br>2 skinless, boneless chicken breast halves - cut into bite-size pieces<br>1 tablespoon tomato paste<br>1 cup plain yogurt<br>3/4 cup coconut milk<br>1/2 lemon, juiced<br>1/2 teaspoon cayenne pepper",
+    	"steps":[
+    		"Heat olive oil in a skillet over medium heat. Saute onion until lightly browned. Stir in garlic, curry powder, cinnamon, paprika, bay leaf, ginger, sugar and salt. Continue stirring for 2 minutes. Add chicken pieces, tomato paste, yogurt, and coconut milk. Bring to a boil, reduce heat, and simmer for 20 to 25 minutes.",
+    		"Remove bay leaf, and stir in lemon juice and cayenne pepper. Simmer 5 more minutes."
+    	]
+    },
+    {
+    	"name":"Simple Hamburger Stroganoff",
+    	"overview":"1 (16 ounce) package egg noodles<br>1 pound lean ground beef<br>1 (.75 ounce) packet dry brown gravy mix<br>1 (8 ounce) package cream cheese<br>1 (6 ounce) can chopped mushrooms, with liquid<br>1/2 cup milk<br>1 (8 ounce) container sour cream<br>2 (10.75 ounce) cans condensed cream of mushroom soup",
+    	"steps":[
+    		"Bring a large pot of lightly salted water to a boil. Add egg noodles and cook for 8 to 10 minutes or until al dente; drain.",
+    		"In a skillet over medium heat, brown the ground beef until no pink shows, about 5 minutes; drain fat.",
+    		"Mix brown gravy, cream cheese, and mushrooms with hamburger, stirring until cream cheese melts. Add milk, sour cream, and mushroom soup to cooked pasta. Blend hamburger mixture with pasta."
+    	]
+    },
+    {
+    	"name":"Mushroom Pork Chops",
+    	"overview":"4 pork chops<br>salt and pepper to taste<br>1 pinch garlic salt, or to taste<br>1 onion, chopped<br>1/2 pound fresh mushrooms, sliced<br>1 (10.75 ounce) can condensed cream of mushroom soup",
+    	"steps":[
+    		"Season pork chops with salt, pepper, and garlic salt to taste.",
+    		"In a large skillet, brown the chops over medium-high heat. Add the onion and mushrooms, and saute for one minute. Pour cream of mushroom soup over chops. Cover skillet, and reduce temperature to medium-low. Simmer 20 to 30 minutes, or until chops are cooked through."
+    	]
+    },
+    {
+    	"name":"Ham and Pineapple Kabobs",
+    	"overview":"3 tablespoons brown sugar<br>2 tablespoons distilled white vinegar<br>1 tablespoon vegetable oil<br>1 teaspoon prepared mustard<br>3/4 pound cooked ham, cut into 1 inch cubes<br>1 (15 ounce) can pineapple chunks, drained<br>skewers",
+    	"steps":[
+    		"Preheat grill for high heat.",
+    		"In a medium bowl, mix together brown sugar, vinegar, vegetable oil, and mustard. Thread ham and pineapple chunks alternately onto skewers.",
+    		"Lightly oil grill grate. Place skewers on the prepared grill, and brush liberally with the brown sugar mixture. Cook for 6 to 8 minutes, turning frequently and basting often. Serve when heated through and richly glazed."
+    	]
+    },
     ],
     'drinks':[
     {
