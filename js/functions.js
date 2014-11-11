@@ -1,5 +1,5 @@
 var loop = {};
-var rand = parseInt(Math.random()*3);
+
 var s;
 
 $.ajax({
@@ -13,6 +13,7 @@ $.ajax({
 function loadFDD(type) {
 	var newContent = '';
 	s = type;
+	var rand = parseInt(Math.random()*type.length);
 	console.log(type[rand].name);
 	newContent += '<h3>' + type[rand].name + '</h3>';
 	newContent += '<p>' + type[rand].overview + '</p>';
@@ -21,6 +22,7 @@ function loadFDD(type) {
 
 function loadRecipe(type) {
 	var newContent = '';
+	var rand = parseInt(Math.random()*type.length);
 	for (var i = 0; i < type[rand].steps.length; i++) {
 		newContent += '<li id=\"step' + (i+1) + '"><a href="#">Step ' + (i+1) + '</a></li>';
 		loop['step' + (i+1)] = type[rand].steps[i];	
